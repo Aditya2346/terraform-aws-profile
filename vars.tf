@@ -27,12 +27,12 @@ variable "USER" {
 }
 
 
-variable "PUB_KEY" {
-  default = "dovekey.pub"
+variable PRIV_KEY_PATH {
+  default = "vprofilekey"
 }
 
-variable "PRIV_KEY" {
-  default = "dovekey"
+variable PUB_KEY_PATH {
+  default = "vprofilekey.pub"
 }
 
 variable "MYIP" {
